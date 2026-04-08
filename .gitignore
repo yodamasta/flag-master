@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+
+# Claude
+.claude/
+
+# Unused test files
+*.mp3
+*.gif
+Cute_chibi_mascot*
+Same_character*
