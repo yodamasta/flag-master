@@ -6,8 +6,16 @@
 # Claude
 .claude/
 
-# Unused test files
+# Dependencies
+node_modules/
+test_env/
+
+# Large media files
+*.mp4
 *.mp3
 *.gif
+
+# Unused test files
 Cute_chibi_mascot*
 Same_character*
+*.off.html
