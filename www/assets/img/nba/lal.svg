@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <circle cx="50" cy="50" r="48" fill="#552583" stroke="#FDB927" stroke-width="4"/>
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#FDB927" stroke-width="2"/>
+  <text x="50" y="42" text-anchor="middle" font-family="Arial Black,Arial" font-weight="900" font-size="20" fill="#FDB927">LOS</text>
+  <text x="50" y="62" text-anchor="middle" font-family="Arial Black,Arial" font-weight="900" font-size="20" fill="#FDB927">ANGELES</text>
+  <text x="50" y="82" text-anchor="middle" font-family="Arial Black,Arial" font-weight="900" font-size="16" fill="#FDB927">LAKERS</text>
+</svg>

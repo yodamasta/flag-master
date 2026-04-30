@@ -19,3 +19,6 @@ test_env/
 Cute_chibi_mascot*
 Same_character*
 *.off.html
+
+# Temp / cache dumps
+trash/

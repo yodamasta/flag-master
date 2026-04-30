@@ -6,14 +6,25 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="stylesheet" href="style.css">
-<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/10.7.0/firebase-app-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/10.7.0/firebase-auth-compat.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore-compat.js"></script>
 </head>
 <body>
 <div class="blob-bg"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
+<div id="bg-fade"></div>
 <button id="music-fab" class="music-fab on" onclick="toggleMusic()" title="Musique">🔊</button>
-<div id="app">Chargement de Globe Terry...</div>
+<div id="app">
+  <div class="boot-screen">
+    <div class="boot-logo-wrap">
+      <div class="boot-ring"></div>
+      <img src="assets/terry_accueil.png" alt="Globe Terry" class="boot-logo">
+    </div>
+    <div class="boot-title">Flag Master</div>
+    <div class="boot-sub">Globe Terry se prépare</div>
+    <div class="boot-dots"><span></span><span></span><span></span></div>
+  </div>
+</div>
 <script src="app.js"></script>
 </body>
 </html>
